@@ -3,54 +3,184 @@ package Task::Template::Benchmark;
 use warnings;
 use strict;
 
+our $VERSION = '0.99_01';
+
+1;
+
+__END__
+
+=pod
+
 =head1 NAME
 
-Task::Template::Benchmark - The great new Task::Template::Benchmark!
-
-=head1 VERSION
-
-Version 0.01
-
-=cut
-
-our $VERSION = '0.01';
-
+Task::Template::Benchmark - Task to install all template engines benchmarked byTemplate::Benchmark.
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
+This distribution contains no actual code, it simply exists to provide
+a list of dependencies to assist in quickly installing all template engines
+and optional dependencies used by L<Template::Benchmark>.
 
-Perhaps a little code snippet.
+Be warned, between them, the 34 modules installed by this task have a
+huge number of dependencies and prerequisites, on a fresh build of Perl
+with only Bundle::CPAN installed this will run for over 20 minutes.
 
-    use Task::Template::Benchmark;
+To use L<Task::Template::Benchmark> simply type at your CPAN prompt:
 
-    my $foo = Task::Template::Benchmark->new();
-    ...
+  install Task::Template::Benchmark
 
-=head1 EXPORT
+Or extract the distribution tarball to a directotry and do the following:
 
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
+  perl Build.PL
+  ./Build installdeps
+  ./Build test
+  ./Build install
 
-=head1 SUBROUTINES/METHODS
+The current release of L<Task::Template::Benchmark> aims to always track
+the dependencies required by the current release of L<Template::Benchmark>.
 
-=head2 function1
+However, it should also be perfectly safe to use the current
+L<Task::Template::Benchmark> with an older install of L<Template::Benchmark>
+- you'll most likely only end up installing some extra modules that won't
+be used by that older version.
 
-=cut
+=head1 INCLUDED MODULES
 
-sub function1 {
-}
+=over
 
-=head2 function2
+=item Template Benchmark itself
 
-=cut
+L<Template:Benchmark>
 
-sub function2 {
-}
+=item Optional bits for extra benchmark_template_engines behaviour.
+
+L<Term::ProgressBar::Simple>
+
+L<JSON::Any>
+
+=item Modules required by multiple plugins
+
+L<File::Spec>
+
+File::Spec needed by plugins for:
+Mojo::Template, Tenjin, Text::MicroMason, Text::Templ.
+
+L<IO::File>
+
+IO::File needed by plugins for:
+Mojo::Template, Tenjin.
+
+=item Template Engines
+
+L<HTML::Template>
+
+L<HTML::Template::Compiled>
+
+L<HTML::Template::Expr>
+
+L<HTML::Template::JIT>
+
+L<HTML::Template::Pro>
+
+L<Mojo>
+
+L<Mojo::Template>
+
+L<NTS::Template>
+
+L<Template::Alloy>
+
+L<Template::Sandbox>
+
+Extras for L<Template::Sandbox>:
+
+L<Cache::CacheFactory>
+L<Cache::Cache>
+L<Cache::FastMemoryCache>
+L<Cache::FastMmap>
+L<CHI>
+
+L<Template::Tiny>
+
+L<Template>
+
+Extras for L<Template>:
+
+L<Template::Stash::XS>
+L<Template::Parser::CET>
+
+L<Tenjin> 0.05 (pre-0.05 Tenjin was an incompatible API change)
+
+L<Text::ClearSilver>
+
+L<Text::MicroMason>
+
+L<Text::MicroTemplate>
+
+L<Text::MicroTemplate::Extended>
+
+L<Text::Template>
+
+L<Text::Template::Simple>
+
+L<Text::Tmpl>
+
+L<Text::Xslate> 0.1030 (0.1030 required for bridge support)
+
+L<Text::Xslate::Bridge::TT2>
+
+=back
+
+=head1 WINDOWS SUPPORT
+
+Under Windows the following modules are not installed because they
+appear to fail on Windows:
+
+=over
+
+=item L<HTML::Template::Compiled>
+
+=item L<HTML::Template::JIT>
+
+=item L<Text::ClearSilver>
+
+=item L<Text::Xslate>
+
+=item L<Text::Xslate::Bridge::TT2>
+
+=item L<Term::ProgressBar::Simple>
+
+These modules appear to have build failures under windows, or prerequisites
+that fail to build.
+
+=item L<NTS::Template>
+
+Returns empty content.
+
+=item L<Template::Alloy>
+
+The L<HTML::Template> emulation for L<Template::Alloy> appears to
+get confused by the volume letters in Windows filenames.
+
+=item L<Template::Tiny>
+
+=item L<Text::Template::Simple>
+
+Error on attempting to run the template.
+
+=item L<Text::Tmpl>
+
+Returns corrupted output at tail end of template.
+
+=back
+
+=head1 KNOWN ISSUES AND BUGS
+
+None currently known.
 
 =head1 AUTHOR
 
-Sam Graham, C<< <perl-modules at illusori.co.uk> >>
+Sam Graham, C<< <libtemplate-benchmark-perl BLAHBLAH illusori.co.uk> >>
 
 =head1 BUGS
 
@@ -104,7 +234,4 @@ by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 
-
 =cut
-
-1; # End of Task::Template::Benchmark
