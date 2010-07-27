@@ -1,25 +1,29 @@
 Task-Template-Benchmark
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+This distribution contains no actual code, it simply exists to provide
+a list of dependencies to assist in quickly installing all template engines
+and optional dependencies used by L<Template::Benchmark>.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+Be warned, between them, the 34 modules installed by this task have a
+huge number of dependencies and prerequisites, on a fresh build of Perl
+with only Bundle::CPAN installed this will run for over 20 minutes.
 
+The current release of L<Task::Template::Benchmark> aims to always track
+the dependencies required by the current release of L<Template::Benchmark>.
+
+However, it should also be perfectly safe to use the current
+L<Task::Template::Benchmark> with an older install of L<Template::Benchmark>
+- you'll most likely only end up installing some extra modules that won't
+be used by that older version.
 
 INSTALLATION
 
 To install this module, run the following commands:
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+  perl Build.PL
+  ./Build installdeps
+  ./Build test
+  ./Build install
 
 SUPPORT AND DOCUMENTATION
 
