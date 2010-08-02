@@ -3,7 +3,7 @@ package Task::Template::Benchmark;
 use warnings;
 use strict;
 
-our $VERSION = '0.99_01';
+our $VERSION = '1.0';
 
 1;
 
@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Task::Template::Benchmark - Task to install all template engines benchmarked byTemplate::Benchmark.
+Task::Template::Benchmark - Task to install all template engines benchmarked by Template::Benchmark.
 
 =head1 SYNOPSIS
 
@@ -29,7 +29,7 @@ To use L<Task::Template::Benchmark> simply type at your CPAN prompt:
 
   install Task::Template::Benchmark
 
-Or extract the distribution tarball to a directotry and do the following:
+Or extract the distribution tarball to a directory and do the following:
 
   perl Build.PL
   ./Build installdeps
@@ -48,29 +48,29 @@ be used by that older version.
 
 =over
 
-=item Template Benchmark itself
+=item Template Benchmark itself:
 
 L<Template:Benchmark>
 
-=item Optional bits for extra benchmark_template_engines behaviour.
+=item Optional bits for extra L<benchmark_template_engines> behaviour:
 
 L<Term::ProgressBar::Simple>
 
 L<JSON::Any>
 
-=item Modules required by multiple plugins
+=item Modules required by multiple plugins:
 
 L<File::Spec>
 
-File::Spec needed by plugins for:
-Mojo::Template, Tenjin, Text::MicroMason, Text::Templ.
+L<File::Spec> needed by plugins for:
+L<Mojo::Template>, L<Tenjin>, L<Text::MicroMason>, L<Text::Tmpl>.
 
 L<IO::File>
 
-IO::File needed by plugins for:
-Mojo::Template, Tenjin.
+L<IO::File> needed by plugins for:
+L<Mojo::Template>, L<Tenjin>.
 
-=item Template Engines
+=item Template Engines:
 
 L<HTML::Template>
 
@@ -178,6 +178,10 @@ Returns corrupted output at tail end of template.
 
 None currently known.
 
+=head1 SEE ALSO
+
+L<Template::Benchmark>
+
 =head1 AUTHOR
 
 Sam Graham, C<< <libtemplate-benchmark-perl BLAHBLAH illusori.co.uk> >>
@@ -219,9 +223,6 @@ L<http://cpanratings.perl.org/d/Task-Template-Benchmark>
 L<http://search.cpan.org/dist/Task-Template-Benchmark/>
 
 =back
-
-
-=head1 ACKNOWLEDGEMENTS
 
 
 =head1 LICENSE AND COPYRIGHT
