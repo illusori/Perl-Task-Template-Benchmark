@@ -1,5 +1,10 @@
 Revision history for Task-Template-Benchmark
 
+1.00_01 Version released at 2010-08-12-11:37.  *** Development version. ***
+        Version started at  2010-08-12-10:59.
+        Updated version requirements for TextXslateTT plugin.
+        Required version 0.36 of Module::Build for "installdeps".
+
 1.00    Version released at 2010-08-02-06:58.
         Version started at  2010-07-27-18:07.
         Added "see also" to POD.
