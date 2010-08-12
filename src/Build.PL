@@ -41,15 +41,18 @@ my %modules = (
         #  pre-0.05 Tenjin was an incompatible API change
         'Tenjin'                    => '0.05',
         'Text::ClearSilver'         => 0,
+#  TODO: Only a devel version available, won't be found by installdeps
+#        'Text::Clevy'               => '0.0001_03',
         'Text::MicroMason'          => 0,
         'Text::MicroTemplate'       => 0,
         'Text::MicroTemplate::Extended' => 0,
         'Text::Template'            => 0,
         'Text::Template::Simple'    => 0,
         'Text::Tmpl'                => 0,
-        #  0.1030 required for TextXlsateTT.
-        'Text::Xslate'              => '0.1030',
-        'Text::Xslate::Bridge::TT2' => 0,
+        #  0.1053 required for TextXlsateTT.
+        'Text::Xslate'              => '0.1053',
+        #  1.0002 required for TextXlsateTT.
+        'Text::Xslate::Bridge::TT2' => '1.0002',
     );
 
 #  Prune the unsafe ones on windows.
@@ -60,6 +63,7 @@ delete @modules{ qw/
     Template::Alloy
     Template::Tiny
     Text::ClearSilver
+    Text::Clevy
     Text::Template::Simple
     Text::Tmpl
     Text::Xslate
@@ -74,7 +78,9 @@ my $builder = Module::Build->new(
     dist_author         => q{Sam Graham <libtemplate-benchmark-perl@illusori.co.uk>},
     dist_version_from   => 'lib/Task/Template/Benchmark.pm',
     build_requires => {
-        'Test::More' => 0,
+        'Test::More'    => 0,
+        #  0.36 required for "installdeps"
+        'Module::Build' => '0.36',
     },
     requires => {
         %modules,
