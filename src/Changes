@@ -1,5 +1,9 @@
 Revision history for Task-Template-Benchmark
 
+1.00_02 Version released at 2010-08-15-22:30.  *** Development version. ***
+        Version started at  2010-08-15-22:30.
+        Added Parse::Template requirement.
+
 1.00_01 Version released at 2010-08-12-11:37.  *** Development version. ***
         Version started at  2010-08-12-10:59.
         Updated version requirements for TextXslateTT plugin.
