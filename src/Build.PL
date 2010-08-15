@@ -26,6 +26,7 @@ my %modules = (
         'Mojo'                      => 0,
         'Mojo::Template'            => 0,
         'NTS::Template'             => 0,
+        'Parse::Template'           => 0,
         'Template::Alloy'           => 0,
         #  Lots of extras here...
         'Template::Sandbox'         => 0,
