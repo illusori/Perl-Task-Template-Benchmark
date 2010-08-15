@@ -3,7 +3,7 @@ package Task::Template::Benchmark;
 use warnings;
 use strict;
 
-our $VERSION = '1.00_01';
+our $VERSION = '1.00_02';
 
 1;
 
