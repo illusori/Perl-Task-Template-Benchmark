@@ -18,6 +18,7 @@ my %modules = (
         #    Mojo::Template, Tenjin.
         'IO::File'                  => 0,
 
+        'HTML::Mason'               => 0,
         'HTML::Template'            => 0,
         'HTML::Template::Compiled'  => 0,
         'HTML::Template::Expr'      => 0,

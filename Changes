@@ -1,5 +1,9 @@
 Revision history for Task-Template-Benchmark
 
+1.00_03 Version released at .  *** Development version. ***
+        Version started at  2010-09-15-12:53.
+        Added HTML::Mason requirement.
+
 1.00_02 Version released at 2010-08-15-22:30.  *** Development version. ***
         Version started at  2010-08-15-22:30.
         Added Parse::Template requirement.
