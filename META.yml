@@ -14,6 +14,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Task-Template-Benchmark
+provides:
+  Task::Template::Benchmark:
+    file: lib/Task/Template/Benchmark.pm
+    version: 1.00_03
 requires:
   CHI: 0
   Cache::Cache: 0
@@ -21,6 +25,7 @@ requires:
   Cache::FastMemoryCache: 0
   Cache::FastMmap: 0
   File::Spec: 0
+  HTML::Macro: 0
   HTML::Mason: 0
   HTML::Template: 0
   HTML::Template::Compiled: 0
@@ -33,6 +38,7 @@ requires:
   Mojo::Template: 0
   NTS::Template: 0
   Parse::Template: 0
+  Solution: 0.000000004
   Template: 0
   Template::Alloy: 0
   Template::Benchmark: 0

@@ -74,6 +74,8 @@ L<Mojo::Template>, L<Tenjin>.
 
 L<HTML::Mason>
 
+L<HTML::Macro>
+
 L<HTML::Template>
 
 L<HTML::Template::Compiled>
@@ -89,6 +91,8 @@ L<Mojo>
 L<Mojo::Template>
 
 L<NTS::Template>
+
+L<Solution>
 
 L<Template::Alloy>
 
