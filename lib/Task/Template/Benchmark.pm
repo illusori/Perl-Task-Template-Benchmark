@@ -92,7 +92,7 @@ L<Mojo::Template>
 
 L<NTS::Template>
 
-L<Solution>
+L<Solution> 0.000000004 (for sorted hash-looping)
 
 L<Template::Alloy>
 
@@ -104,6 +104,7 @@ L<Cache::CacheFactory>
 L<Cache::Cache>
 L<Cache::FastMemoryCache>
 L<Cache::FastMmap>
+L<Cache::Ref>
 L<CHI>
 
 L<Template::Tiny>
@@ -131,7 +132,7 @@ L<Text::Template::Simple>
 
 L<Text::Tmpl>
 
-L<Text::Xslate> 0.1030 (0.1030 required for bridge support)
+L<Text::Xslate> 0.1053 (0.1053 required for TT2 bridge support)
 
 L<Text::Xslate::Bridge::TT2>
 

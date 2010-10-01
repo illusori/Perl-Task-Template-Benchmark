@@ -38,6 +38,7 @@ my %modules = (
         'Cache::Cache'              => 0,
         'Cache::FastMemoryCache'    => 0,
         'Cache::FastMmap'           => 0,
+        'Cache::Ref'                => 0,
         'CHI'                       => 0,
         'Template::Tiny'            => 0,
         'Template'                  => 0,

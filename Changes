@@ -5,6 +5,7 @@ Revision history for Task-Template-Benchmark
         Added HTML::Mason requirement.
         Added Solution requirement.
         Added HTML::Macro requirement.
+        Added Cache::Ref requirement.
 
 1.00_02 Version released at 2010-08-15-22:30.  *** Development version. ***
         Version started at  2010-08-15-22:30.
