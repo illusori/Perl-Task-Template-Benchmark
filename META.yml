@@ -24,6 +24,7 @@ requires:
   Cache::CacheFactory: 0
   Cache::FastMemoryCache: 0
   Cache::FastMmap: 0
+  Cache::Ref: 0
   File::Spec: 0
   HTML::Macro: 0
   HTML::Mason: 0
