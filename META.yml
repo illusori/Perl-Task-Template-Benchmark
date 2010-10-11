@@ -50,6 +50,7 @@ requires:
   Tenjin: 0.05
   Term::ProgressBar::Simple: 0
   Text::ClearSilver: 0
+  Text::Clevery: 0
   Text::MicroMason: 0
   Text::MicroTemplate: 0
   Text::MicroTemplate::Extended: 0

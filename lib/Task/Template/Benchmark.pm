@@ -120,6 +120,8 @@ L<Tenjin> 0.05 (pre-0.05 Tenjin was an incompatible API change)
 
 L<Text::ClearSilver>
 
+L<Text::Clevery>
+
 L<Text::MicroMason>
 
 L<Text::MicroTemplate>
@@ -150,6 +152,8 @@ appear to fail on Windows:
 =item L<HTML::Template::JIT>
 
 =item L<Text::ClearSilver>
+
+=item L<Text::Clevery>
 
 =item L<Text::Xslate>
 

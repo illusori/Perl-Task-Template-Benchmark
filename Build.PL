@@ -47,8 +47,7 @@ my %modules = (
         #  pre-0.05 Tenjin was an incompatible API change
         'Tenjin'                    => '0.05',
         'Text::ClearSilver'         => 0,
-#  TODO: Only a devel version available, won't be found by installdeps
-#        'Text::Clevy'               => '0.0001_03',
+        'Text::Clevery'             => 0,
         'Text::MicroMason'          => 0,
         'Text::MicroTemplate'       => 0,
         'Text::MicroTemplate::Extended' => 0,
@@ -69,7 +68,7 @@ delete @modules{ qw/
     Template::Alloy
     Template::Tiny
     Text::ClearSilver
-    Text::Clevy
+    Text::Clevery
     Text::Template::Simple
     Text::Tmpl
     Text::Xslate
