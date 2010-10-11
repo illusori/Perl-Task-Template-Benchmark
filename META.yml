@@ -17,7 +17,7 @@ name: Task-Template-Benchmark
 provides:
   Task::Template::Benchmark:
     file: lib/Task/Template/Benchmark.pm
-    version: 1.00_03
+    version: 1.00_04
 requires:
   CHI: 0
   Cache::Cache: 0
