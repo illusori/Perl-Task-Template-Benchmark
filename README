@@ -4,7 +4,7 @@ This distribution contains no actual code, it simply exists to provide
 a list of dependencies to assist in quickly installing all template engines
 and optional dependencies used by Template::Benchmark.
 
-Be warned, between them, the 34 modules installed by this task have a
+Be warned, between them, the 34+ modules installed by this task have a
 huge number of dependencies and prerequisites, on a fresh build of Perl
 with only Bundle::CPAN installed this will run for over 20 minutes.
 
