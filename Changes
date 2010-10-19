@@ -1,5 +1,10 @@
 Revision history for Task-Template-Benchmark
 
+1.00_05 Version released at 2010-10-19-08:47.  *** Development version. ***
+        Version started at  2010-10-19-08:35.
+        Require latest Text::Xslate and Data::MessagePack for Windows compat.
+        Text::Xslate family of engines no-longer on Windows blacklist.
+
 1.00_04 Version released at 2010-10-18-10:32.  *** Development version. ***
         Version started at  2010-10-11-06:06.
         Support for Text::Clevy rename to Text::Clevery.

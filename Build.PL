@@ -54,8 +54,10 @@ my %modules = (
         'Text::Template'            => 0,
         'Text::Template::Simple'    => 0,
         'Text::Tmpl'                => 0,
-        #  0.1053 required for TextXlsateTT.
-        'Text::Xslate'              => '0.1053',
+        #  0.2012 required to work on Strawberry Perl on Win32/XP
+        'Text::Xslate'              => '0.2012',
+        #  0.34 fixes (endian?) bug on Strawberry Perl on Win32/XP
+        'Data::MessagePack'         => '0.34',
         #  1.0002 required for TextXlsateTT.
         'Text::Xslate::Bridge::TT2' => '1.0002',
     );
@@ -68,14 +70,17 @@ delete @modules{ qw/
     Template::Alloy
     Template::Tiny
     Text::ClearSilver
-    Text::Clevery
     Text::Template::Simple
     Text::Tmpl
-    Text::Xslate
-    Text::Xslate::Bridge::TT2
     Term::ProgressBar::Simple
     / }
     if $^O =~ /MSWin/;
+
+#  These appear to be fixed for windows.
+#    Text::Clevery
+#    Text::Xslate
+#    Data::MessagePack
+#    Text::Xslate::Bridge::TT2
 
 my $builder = Module::Build->new(
     module_name         => 'Task::Template::Benchmark',

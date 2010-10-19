@@ -3,7 +3,7 @@ package Task::Template::Benchmark;
 use warnings;
 use strict;
 
-our $VERSION = '1.00_04';
+our $VERSION = '1.00_05';
 
 1;
 
@@ -152,12 +152,6 @@ appear to fail on Windows:
 =item L<HTML::Template::JIT>
 
 =item L<Text::ClearSilver>
-
-=item L<Text::Clevery>
-
-=item L<Text::Xslate>
-
-=item L<Text::Xslate::Bridge::TT2>
 
 =item L<Term::ProgressBar::Simple>
 

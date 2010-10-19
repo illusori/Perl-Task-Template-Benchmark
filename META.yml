@@ -17,7 +17,7 @@ name: Task-Template-Benchmark
 provides:
   Task::Template::Benchmark:
     file: lib/Task/Template/Benchmark.pm
-    version: 1.00_04
+    version: 1.00_05
 requires:
   CHI: 0
   Cache::Cache: 0
@@ -25,6 +25,7 @@ requires:
   Cache::FastMemoryCache: 0
   Cache::FastMmap: 0
   Cache::Ref: 0
+  Data::MessagePack: 0.34
   File::Spec: 0
   HTML::Macro: 0
   HTML::Mason: 0
@@ -57,8 +58,8 @@ requires:
   Text::Template: 0
   Text::Template::Simple: 0
   Text::Tmpl: 0
-  Text::Xslate: 0.1053
+  Text::Xslate: 0.2012
   Text::Xslate::Bridge::TT2: 1.0002
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.00_04
+version: 1.00_05
