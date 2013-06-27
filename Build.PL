@@ -51,6 +51,7 @@ my %modules = (
         'Text::MicroMason'          => 0,
         'Text::MicroTemplate'       => 0,
         'Text::MicroTemplate::Extended' => 0,
+        'Text::ScriptTemplate'      => '0.08',
         'Text::SimpleTemplate'      => '0.36',
         'Text::Template'            => 0,
         'Text::Template::Simple'    => 0,

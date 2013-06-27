@@ -1,7 +1,8 @@
 Revision history for Task-Template-Benchmark
 
 1.00_06 Version released at .  *** Development version. ***
-        Added Text::SimpleTemplate.
+        Added Text::SimpleTemplate requirement.
+        Added Text::ScriptTemplate requirement.
 
 1.00_05 Version released at 2010-10-19-08:47.  *** Development version. ***
         Require latest Text::Xslate and Data::MessagePack for Windows compat.

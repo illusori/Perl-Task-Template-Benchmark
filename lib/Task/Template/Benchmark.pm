@@ -128,6 +128,8 @@ L<Text::MicroTemplate>
 
 L<Text::MicroTemplate::Extended>
 
+L<Text::ScriptTemplate>
+
 L<Text::SimpleTemplate>
 
 L<Text::Template>
