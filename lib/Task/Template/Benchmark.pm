@@ -96,6 +96,8 @@ L<Solution> 0.000000004 (for sorted hash-looping)
 
 L<Template::Alloy>
 
+L<Template::AutoFilter>
+
 L<Template::Sandbox>
 
 Extras for L<Template::Sandbox>:
@@ -106,6 +108,8 @@ L<Cache::FastMemoryCache>
 L<Cache::FastMmap>
 L<Cache::Ref>
 L<CHI>
+
+L<Template::Simple>
 
 L<Template::Tiny>
 
@@ -118,6 +122,8 @@ L<Template::Parser::CET>
 
 L<Tenjin> 0.05 (pre-0.05 Tenjin was an incompatible API change)
 
+L<Text::Caml>
+
 L<Text::ClearSilver>
 
 L<Text::Clevery>
@@ -128,9 +134,13 @@ L<Text::MicroTemplate>
 
 L<Text::MicroTemplate::Extended>
 
+L<Text::MiniTmpl>
+
 L<Text::ScriptTemplate>
 
 L<Text::SimpleTemplate>
+
+L<Text::Templet>
 
 L<Text::Template>
 

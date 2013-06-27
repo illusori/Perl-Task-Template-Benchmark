@@ -6,9 +6,9 @@ build_requires:
   Module::Build: 0.36
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
+  Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3607'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -43,20 +43,27 @@ requires:
   Solution: 0.000000004
   Template: 0
   Template::Alloy: 0
+  Template::AutoFilter: 0.130420
   Template::Benchmark: 0
   Template::Parser::CET: 0
   Template::Sandbox: 0
+  Template::Simple: 0.06
   Template::Stash::XS: 0
   Template::Tiny: 0
   Tenjin: 0.05
   Term::ProgressBar::Simple: 0
+  Text::Caml: 0.10
   Text::ClearSilver: 0
   Text::Clevery: 0
   Text::MicroMason: 0
   Text::MicroTemplate: 0
   Text::MicroTemplate::Extended: 0
+  Text::MiniTmpl: v1.1.1
+  Text::ScriptTemplate: 0.08
+  Text::SimpleTemplate: 0.36
   Text::Template: 0
   Text::Template::Simple: 0
+  Text::Templet: 3.0
   Text::Tmpl: 0
   Text::Xslate: 0.2012
   Text::Xslate::Bridge::TT2: 1.0002
