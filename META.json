@@ -63,6 +63,7 @@
             "Text::Caml" : "0.10",
             "Text::ClearSilver" : "0",
             "Text::Clevery" : "0",
+            "Text::FastTemplate" : "0.95",
             "Text::MicroMason" : "0",
             "Text::MicroTemplate" : "0",
             "Text::MicroTemplate::Extended" : "0",

@@ -5,6 +5,7 @@ Revision history for Task-Template-Benchmark
             Template::AutoFilter.
             Template::Simple.
             Text::Caml.
+            Text::FastTemplate.
             Text::MiniTmpl.
             Text::ScriptTemplate.
             Text::SimpleTemplate.
