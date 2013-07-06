@@ -60,6 +60,7 @@ my %modules = (
         'Text::SimpleTemplate'      => '0.36',
         'Text::Template'            => 0,
         'Text::Template::Simple'    => 0,
+        'Text::TemplateLite'        => '0.01',
         'Text::Templet'             => '3.0',
         'Text::Tmpl'                => 0,
         #  0.2012 required to work on Strawberry Perl on Win32/XP
