@@ -9,7 +9,9 @@ Revision history for Task-Template-Benchmark
             Text::MiniTmpl.
             Text::ScriptTemplate.
             Text::SimpleTemplate.
+            Text::TemplateLite.
             Text::Templet.
+            Text::Xslate::Syntax::HTMLTemplate.
 
 1.00_05 Version released at 2010-10-19-08:47.  *** Development version. ***
         Require latest Text::Xslate and Data::MessagePack for Windows compat.

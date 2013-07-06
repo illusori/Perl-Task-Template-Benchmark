@@ -69,6 +69,7 @@ requires:
   Text::Tmpl: 0
   Text::Xslate: 0.2012
   Text::Xslate::Bridge::TT2: 1.0002
+  Text::Xslate::Syntax::HTMLTemplate: 0.1005
 resources:
   license: http://dev.perl.org/licenses/
 version: 1.00_05

@@ -69,6 +69,7 @@ my %modules = (
         'Data::MessagePack'         => '0.34',
         #  1.0002 required for TextXlsateTT.
         'Text::Xslate::Bridge::TT2' => '1.0002',
+        'Text::Xslate::Syntax::HTMLTemplate' => '0.1005',
     );
 
 #  Prune the unsafe ones on windows.
